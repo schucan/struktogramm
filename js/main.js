@@ -88,7 +88,7 @@ function setFromRedo() {
 function clrCanvas() {
   // document.getElementById("rblock").getElementsByClassName("drop-before-end")[0].innerHTML = '';
   let canvas = document.getElementById("canvas");
-  canvas.innerHTML = '<div id="rblock" class="dblock program"><textarea rows="1" placeholder="Program" ondrop="return false;" oninput="textareaResize(event);"></textarea><div class="droparea drop-before-end" ondrop="drop(event)" ondragover="allowDrop(event)" ondragenter="dragEnter(event)" ondragleave="dragLeave(event)"></div></div>';
+  canvas.innerHTML = '<div id="rblock" class="dblock program"><textarea rows="1" placeholder="Programm" ondrop="return false;" oninput="textareaResize(event);"></textarea><div class="droparea drop-before-end" ondrop="drop(event)" ondragover="allowDrop(event)" ondragenter="dragEnter(event)" ondragleave="dragLeave(event)"></div></div>';
 }
 
 function clearCanvas() {
