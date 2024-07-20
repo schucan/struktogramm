@@ -1,14 +1,14 @@
-# NSD-Maker: A [Nassi–Shneiderman Diagrams](https://en.wikipedia.org/wiki/Nassi%E2%80%93Shneiderman_diagram) editor for the web.
-![NSD-Maker screenshot](https://github.com/charyan/nsdmaker/raw/master/nsdmaker.png)
+# Einfacher Struktogramm Editor für den Unterricht
 
-# [Try it here](https://charyan.github.io/nsdmaker/)
+Dies ist im Wesentlichen ein Port vom [NSD-Maker](https://github.com/charyan/nsdmaker/).
 
-## Download instructions
-```bash
-git clone https://github.com/charyan/nsdmaker.git
-cd nsdmaker
-firefox ./index.html
-```
+Dies sind die Anpassungen:
+
+- Werkzeuge / Elemente eingeschränkt auf nur "Anweisungen", "Bedingung" und "Wiederholung".
+- Teilweise auf Deutsch übersetzt.
+- minimale kosmetische Anpassungen.
+
+Das Tool kann [hier](https://struktogramm.schucan.com) ausprobiert werden. Es kann aber auch einfach von hier als ZIP heruntergeladen und lokal ausgeführt werden. Einfach entpacken in ein Verzeichnis und dann `index.html` mit einem Internetbrowser öffnen.
 
 ## Keyboard Shortcuts
 | Shortcut      | Action |
@@ -22,5 +22,3 @@ firefox ./index.html
 | <kbd>Ctrl</kbd> + <kbd>Y</kbd> | Redo |
 | <kbd>Ctrl</kbd> + <kbd>Z</kbd> | Undo |
 | <kbd>Delete</kbd> | Delete selected element |
-
-
