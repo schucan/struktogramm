@@ -1,10 +1,5 @@
-@font-face {
-  font-family: FreeSans;
-  src: url(fonts/FreeSans.woff);
-}
-
 * {
-  font-family: FreeSans, sans;
+  font-family: sans-serif;
   font-size: 24px;
 }
 
@@ -53,7 +48,6 @@ body {
   background-color: #FFFFFF;
   background-position: 0 0, 50px 50px;
   background-size: 20px 20px;
-  overflow: hidden;
 }
 
 .menu {
@@ -62,17 +56,21 @@ body {
   background-color: #5171A5;
   z-index: 10000;
   position: sticky;
+  width: calc(100vw - 300px);
 }
 
 .menu p {
   display: inline-block;
   color: white;
 }
-
+button {
+  display:inline-block;
+  margin:3px;
+}
 #sidebar {
   background-color: white;
   border: 5px solid black;
-  width: 20%;
+  width: 300px;
   right: 0;
   margin-left: auto;
   position: fixed;
